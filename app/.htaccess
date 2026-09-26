@@ -1,0 +1,3 @@
+Options -Indexes
+
+# Artinya jika ada user yang membuka folder app dan folder-folder didalamnya selama di dalam folder itu tidak ada file Index maka jangan ditampilkan isi folder tersebut
