@@ -70,4 +70,8 @@ public function single()
     $this->execute();
     return $this->stmt->fetch(PDO::FETCH_ASSOC);
 }
+
+public function rowCount() {
+        return $this->stmt->rowCount();
+    }
 }
