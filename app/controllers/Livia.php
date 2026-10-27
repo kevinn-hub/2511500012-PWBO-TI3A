@@ -10,7 +10,7 @@ class Livia extends Controller {
         }
 
         public function detail($id){
-            $data['judul'] = 'Detail Mahasiswa';
+            $data['judul'] = 'Livia';
             $data['livia'] = $this->model('Livia_model')->getLiviaById($id);
             $this->view('templates/header', $data);
             $this->view('livia/detail', $data);
